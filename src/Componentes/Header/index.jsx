@@ -1,18 +1,20 @@
+import { Link } from "react-router-dom";
 function Header() {
     return(
-        <header>
+        <nav>
             <ul>
                 <li>
-                    <p>Home</p>
+                    {/* <a href="#">Home</a> */}
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <p>Sobre</p>
+                    <Link to='/sobre'>Sobre</Link>
                 </li>
                 <li>
-                    <p>Contato</p>
+                    <Link to='/contato'>Contato</Link>
                 </li>
             </ul>
-        </header>
+        </nav>
     );
 }
 export default Header;
