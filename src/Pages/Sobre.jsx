@@ -1,9 +1,8 @@
-import Hero from '../Componentes/Hero'
+import ConteudoSobre from "../Componentes/ConteudoSobre"
 export default function Sobre() {
     return(
         <>
-            <Hero />
-            
+            <ConteudoSobre /> 
         </>
     )
 }
