@@ -138,6 +138,7 @@ html, body {
   font-family: "Roboto Mono", monospace;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 nav {
   margin-top: 20px;
