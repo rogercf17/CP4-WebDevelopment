@@ -300,3 +300,91 @@ form {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#box-planos {
+  width: 100vw;
+  padding: 20px;
+  background-color: #F4F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+.planos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.plano {
+  height: 400px;
+  width: 250px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.plano .titulo {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plano .titulo:not(.profissional .titulo, .corporativo .titulo) {
+  background-color: #6975E8;
+}
+.profissional .titulo,
+.corporativo .titulo {
+  background-color: #EBE9E9;
+}
+.plano .informacoes {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  flex: 1;
+}
+.plano .informacoes p:not(.plano .informacoes div p) {
+  color: #8790A3;
+  margin-bottom: 10px;
+}
+.plano .informacoes div {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  height: 30px;
+  width: 216px;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+.plano .informacoes .icon {
+  align-self: flex-end;
+  margin-top: 30px;
+}
+.plano .btn-plano {
+  width: 210px;
+  height: 34px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.individual .btn-plano {
+  background-color: #6975E8;
+  border: none;
+  color: #FFF;
+}
+.profissional .btn-plano,
+.corporativo .btn-plano {
+  background-color: #FFF;
+  border: 1px solid #929292;
+  color: #2F2E41;
+}
+.plano .informacoes .icon-celular {
+  align-self: center;
+  margin: 50% auto;
+}
