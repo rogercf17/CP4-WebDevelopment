@@ -17,47 +17,47 @@ export default function ConteudoSobre() {
 
             <section id="box-planos">
                 <h2>Planos</h2>
-                <div class="planos">
-                    <div class="plano individual">
-                        <div class="titulo"><h3>Individual</h3></div>
-                        <div class="informacoes">
+                <div className="planos">
+                    <div className="plano individual">
+                        <div className="titulo"><h3>Individual</h3></div>
+                        <div className="informacoes">
                             <p>1 Usuário</p>
                             <div>
                                 <p>10 Vídeos <strong>R$15</strong></p>
-                                <img src="chevron-right.png" alt="Icone" height="15px" style="cursor: pointer;"/>
+                                <img src="/icon-seta" alt="Icone" height="15px"/>
                             </div>
-                            <img src="chevron-right.png" alt="Icone" height="15px" width="15px" style="cursor: pointer;" class="icon"/>
+                            <img src="/icon-seta" alt="Icone" height="15px" width="15px" className="icon"/>
                             
                         </div>
-                        <a href="#"><button class="btn-plano">Cadastrar</button></a>
+                        <button className="btn-plano">Cadastrar</button>
                     </div>
 
-                    <div class="plano profissional">
-                        <div class="titulo"><h3>Profissional - Times</h3></div>
-                        <div class="informacoes">
+                    <div className="plano profissional">
+                        <div className="titulo"><h3>Profissional - Times</h3></div>
+                        <div className="informacoes">
                             <p>1-10 Usuários</p>
                             <div>
                                 <p>Vídeos Ilimitados <strong>R$40</strong></p>
-                                <img src="chevron-right.png" alt="Icone" height="15px" style="cursor: pointer;"/>
+                                <img src="/icon-seta" alt="Icone" height="15px"/>
                             </div>
                             <p>+10 Usuários</p>
                             <div>
                                 <p>Vídeos Ilimitados <strong>R$20</strong></p>
-                                <img src="chevron-right.png" alt="Icone" height="15px" style="cursor: pointer;"/>
+                                <img src="/icon-seta" alt="Icone" height="15px"/>
                             </div>
-                            <img src="chevron-right.png" alt="Icone" height="15px" width="15px" style="cursor: pointer;" class="icon"/>
+                            <img src="/icon-seta" alt="Icone" height="15px" width="15px" className="icon"/>
                             
                         </div>
-                        <a href="#"><button class="btn-plano">Cadastrar</button></a>
+                        <button className="btn-plano">Cadastrar</button>
                     </div>
 
-                    <div class="plano corporativo">
-                        <div class="titulo"><h3>Corporativo</h3></div>
-                        <div class="informacoes">
-                            <img src="undraw_Mobile_feed_re_72ta 1.png" height="110px" width="120px" alt="Imagem plano corporativo" class="icon-celular"/>
+                    <div className="plano corporativo">
+                        <div className="titulo"><h3>Corporativo</h3></div>
+                        <div className="informacoes">
+                            <img src="/icon-celular.png" height="110px" width="120px" alt="Imagem plano corporativo" className="icon-celular"/>
                             
                         </div>
-                        <a href="#"><button class="btn-plano">Entre Em Contato</button></a>
+                        <button className="btn-plano">Entre Em Contato</button>
                     </div>
                 </div>
             </section>
