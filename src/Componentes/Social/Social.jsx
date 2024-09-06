@@ -9,7 +9,7 @@ function Social({ social }) {
             description: 'Produza conteúdo cativante e conquiste seu público com vídeos de altíssima qualidade no maior palco digital do mundo.',
             anonymous: true,
             backgroundColor: "pink",
-            platformIcon: 'public/youtube-icon.png',
+            platformIcon: '/youtube-icon.png',
         },
         {
             number: '02',
@@ -17,7 +17,7 @@ function Social({ social }) {
             description: 'Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok.',
             anonymous: true,
             backgroundColor: "rgba(255, 255, 0, 0.5)",
-            platformIcon: 'public/tiktok-icon.png',
+            platformIcon: '/tiktok-icon.png',
         },
         {
             number: '03',
@@ -25,7 +25,7 @@ function Social({ social }) {
             description: 'Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook.',
             anonymous: true,
             backgroundColor: "rgb(173, 216, 230, 0.5)",
-            platformIcon: 'public/facebook-icon.png',
+            platformIcon: '/facebook-icon.png',
 
         },
         {
@@ -34,7 +34,7 @@ function Social({ social }) {
             description: 'Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels.',
             anonymous: true,
             backgroundColor: "rgb(0, 0, 139, 0.5)",
-            platformIcon: 'public/instagram-icon.png',
+            platformIcon: '/instagram-icon.png',
 
         }
     ]
